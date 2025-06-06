@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,20 +6,27 @@
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Site dos ########</title>
 </head>
 <body>
+    <input type="checkbox" id="darkmodeToggle" hidden>
+    <label class="darkmodeLabel" for="darkmodeToggle"></label>
+<div class="page">
 <header>
     <h1>Agrinho</h1>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Campo</a></li>
-                <li><a href="#beneficios">Tecnologia</a></li>
-                <li><a href="#evoluçao">Cidade</a></li>
-                
-            </ul>
-        </nav>
+<nav>
+  <input type="checkbox" id="menu-toggle" hidden>
+  <label for="menu-toggle" class="menu-icon">☰</label>
+
+  <ul class="menu-list">
+    <li><a href="#campo">Campo</a></li>
+    <li><a href="#beneficios">Tecnologia</a></li>
+    <li><a href="#evoluçao">Cidade</a></li>
+  </ul>
+</nav>
+
 </header>
+
 <div class="slider">
     <div class="slides">
         <img src="assets/photo-1504384308090-c894fdcc538d.jpg" alt="1">
@@ -27,7 +35,7 @@
         <img src="assets/photo-1504384308090-c894fdcc538d.jpg" alt="4">
     </div>
 </div>
-<section id = inicio>
+<section id = campo>
     <h1>Agrinho</h1>
     <p>A tecnologia tem sido uma aliada poderosa na transformação do campo e da cidade, promovendo avanços significativos na agricultura, na gestão de recursos e na qualidade de vida. No entanto, seu uso consciente é essencial para garantir que esses benefícios não venham acompanhados de impactos negativos ao meio ambiente e à sociedade.</p>
     <P>Benefícios do uso consciente da tecnologia:</P>
@@ -51,7 +59,8 @@
 <section id = historia>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam totam labore ullam culpa impedit deserunt, iusto nobis harum consequuntur. Odio tempora in suscipit consectetur impedit aliquam quibusdam fugiat maxime dolores.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil esse eligendi enim ad tempore quam tenetur nobis cupiditate quisquam! Laudantium omnis amet consectetur, officiis a molestias sunt magni perspiciatis quos?</p>
 </section>
-<br>
-<div class="footer"></div>
+    <br>
+    <div class="footer"></div>
+</div>
 </body>
 </html>
