@@ -2,7 +2,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" >
+ <link href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,23 +38,53 @@
 </div>
 <section id = campo>
     <h1>Agrinho</h1>
-    <p>A tecnologia tem sido uma aliada poderosa na transformação do campo e da cidade, promovendo avanços significativos na agricultura, na gestão de recursos e na qualidade de vida. No entanto, seu uso consciente é essencial para garantir que esses benefícios não venham acompanhados de impactos negativos ao meio ambiente e à sociedade.</p>
-    <P>Benefícios do uso consciente da tecnologia:</P>
-    <ul>
-        <li>Eficiência na produção: A automação e a agricultura de precisão permitem o uso racional de insumos, aumentando a produtividade e reduzindo desperdícios.</li>
-        <li>Monitoramento ambiental: Sensores e drones auxiliam na coleta de dados sobre o solo, a água e o clima, facilitando a tomada de decisões sustentáveis.</li>
-        <li>Energias renováveis: A adoção de fontes de energia limpa, como solar e eólica, contribui para a redução da pegada de carbono.</li>
-    </ul>
-    <p>Desafios a serem enfrentados:</p>
-    <ul>
-        <li>Resíduos eletrônicos: O descarte inadequado de equipamentos pode causar poluição e danos à saúde.</li>
-        <li>Consumo excessivo de energia: O aumento no uso de dispositivos eletrônicos demanda mais energia, o que pode sobrecarregar as fontes disponíveis.</li>
-        <li>Desigualdade de acesso: Nem todos têm acesso igual às tecnologias, o que pode ampliar as disparidades sociais.</li>
-    </ul>
+    <h2>A tecnologia tem sido uma aliada poderosa na transformação do campo e da cidade, promovendo avanços significativos na agricultura, na gestão de recursos e na qualidade de vida.</h2>
+<div class="benefigrid">
+  <div class="benefit-card">
+    <i class="fi-sr-chart-line-up icon-style"></i>
+    <h3>Eficiência na Produção</h3>
+    <p>Automação e agricultura de precisão permitem o uso racional de insumos, aumentando a produtividade e reduzindo desperdícios.</p>
+  </div>
+
+  <div class="benefit-card">
+    <i class="fi-sr-leaf icon-style"></i>
+    <h3>Monitoramento Ambiental</h3>
+    <p>Sensores e drones auxiliam na coleta de dados sobre o solo, a água e o clima, facilitando decisões sustentáveis.</p>
+  </div>
+
+  <div class="benefit-card">
+    <i class="fi-sr-leaf icon-style"></i>
+    <h3>Energias Renováveis</h3>
+    <p>Adoção de fontes de energia limpa, como solar e eólica, contribui para a redução da pegada de carbono.</p>
+  </div>
+</div>
 </section>
 <br>
 <section id = beneficios>
     
+<div class="galeria">
+  <input type="radio" name="slide" id="slide1" class="slide-control" checked>
+  <input type="radio" name="slide" id="slide2" class="slide-control">
+  <input type="radio" name="slide" id="slide3" class="slide-control">
+  <div class="slides-container">
+    <div class="slide">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="">
+    </div>
+    <div class="slide">
+      <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308" alt="">
+    </div>
+    <div class="slide">
+      <img src="assets/Untitled.jpg" alt="">
+    </div>
+  </div>
+  <div class="slide-nav">
+    <label for="slide1"></label>
+    <label for="slide2"></label>
+    <label for="slide3"></label>
+  </div>
+</div>
+
+
 </section>
 <br>
 <section id = historia>
@@ -62,5 +93,6 @@
     <br>
     <div class="footer"></div>
 </div>
+
 </body>
 </html>
