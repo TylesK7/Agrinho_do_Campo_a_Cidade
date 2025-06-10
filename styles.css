@@ -169,8 +169,6 @@ nav li {
 }
 
 nav a {
-    outline: none;
-    position: relative;
     -webkit-tap-highlight-color: transparent;
 }
 
