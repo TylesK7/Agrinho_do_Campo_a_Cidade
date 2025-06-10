@@ -186,8 +186,7 @@ nav li {
 nav a {
   position: relative;
 }
-@media (hover: hover) and (pointer: fine) {
-  nav a::after {
+nav a::after {
     background: rgb(161 215 0);
     bottom: 0;
     content: '';
@@ -196,11 +195,10 @@ nav a {
     position: absolute;
     transition: 0.3s ease;
     width: 0;
-  }
+}
 
-  nav a:hover::after {
+nav a:hover::after {
     width: 100%;
-  }
 }
 section {
     color: var(--color-text3);
