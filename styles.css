@@ -1,3 +1,4 @@
+
 :root {
     --color-text: #f5fbe3;
     --color-text2: #004d40;
@@ -54,7 +55,7 @@ body {
     transition: 0.3s;
     visibility: hidden;
     width: 100%;
-    z-index: 1000;
+    z-index: 1;
 }
 
 .modal:target {
@@ -85,7 +86,7 @@ body {
     text-decoration: none;
     top: 0.2rem;
     width: 2.358rem;
-    z-index: 9999;
+    z-index: 3;
 }
 
 .modal_close:hover {
@@ -193,7 +194,7 @@ nav li {
 }
 
 nav a {
-    -webkit-tap-highlight-color: transparent;
+    position: relative;
 }
 
 nav a::after {
