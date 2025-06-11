@@ -1,118 +1,130 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
- <link href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <link href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site dos ########</title>
 </head>
 <body>
-   <div id="splash">
+  <div class="splash">
     <h1>Bem-vindo(a)!</h1>
   </div>
     <input type="checkbox" id="darkmodeToggle" hidden>
     <label class="darkmodeLabel" for="darkmodeToggle"></label>
- 
+
 <div class="page">
-<header>
-    <h1>Agrinho</h1>
-<nav>
-  <input type="checkbox" id="menu-toggle" hidden>
-  <label for="menu-toggle" class="menu-icon">☰</label>
+        <header>
+            <h1>Agrinho</h1>
+            <nav>
+                <input type="checkbox" id="menu-toggle" hidden>
+                <label for="menu-toggle" class="menu-icon">☰</label>
+                <ul class="menu-list">
+                    <li><a href="#campo">Campo</a></li>
+                    <li><a href="#tecnologia">Tecnologia</a></li>
+                    <li><a href="#cidade">Cidade</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="slider">
+            <div class="slides">
+                <img src="assets/photo-1504384308090-c894fdcc538d.jpg" alt="1">
+                <img src="assets/photo-1504384308090-c894fdcc538d.jpg" alt="2">
+                <img src="assets/photo-1504384308090-c894fdcc538d.jpg" alt="3">
+                <img src="assets/photo-1504384308090-c894fdcc538d.jpg" alt="4">
+            </div>
+        </div>
 
-  <ul class="menu-list">
-    <li><a href="#campo">Campo</a></li>
-    <li><a href="#beneficios">Tecnologia</a></li>
-    <li><a href="#evoluçao">Cidade</a></li>
-  </ul>
-</nav>
-
-</header>
-
-<div class="slider">
-    <div class="slides">
-        <img src="assets/photo-1504384308090-c894fdcc538d.jpg" alt="1">
-        <img src="assets/photo-1504384308090-c894fdcc538d.jpg" alt="2">
-        <img src="assets/photo-1504384308090-c894fdcc538d.jpg" alt="3">
-        <img src="assets/photo-1504384308090-c894fdcc538d.jpg" alt="4">
-    </div>
-</div>
-<section id = campo>
-    <h1>Agrinho</h1>
-    <h2>A tecnologia tem sido uma aliada poderosa na transformação do campo e da cidade, promovendo avanços significativos na agricultura, na gestão de recursos e na qualidade de vida.</h2>
-<div class="benefigrid">
-  <div class="benefit-card">
-    <i class="fi-sr-chart-line-up icon-style"></i>
-    <h3>Eficiência na Produção</h3>
-    <p>Automação e agricultura de precisão permitem o uso racional de insumos, aumentando a produtividade e reduzindo desperdícios.</p>
-  </div>
-
-  <div class="benefit-card">
-    <i class="fi-sr-leaf icon-style"></i>
-    <h3>Monitoramento Ambiental</h3>
-    <p>Sensores e drones auxiliam na coleta de dados sobre o solo, a água e o clima, facilitando decisões sustentáveis.</p>
-  </div>
-
-  <div class="benefit-card">
-    <i class="fi-sr-leaf icon-style"></i>
-    <h3>Energias Renováveis</h3>
-    <p>Adoção de fontes de energia limpa, como solar e eólica, contribui para a redução da pegada de carbono.</p>
-  </div>
-</div>
-</section>
-<br>
-<section id = beneficios>
-    
-<div class="galeria">
-  <input type="radio" name="slide" id="slide1" class="slide-control" checked>
-  <input type="radio" name="slide" id="slide2" class="slide-control">
-  <input type="radio" name="slide" id="slide3" class="slide-control">
-  <div class="slides-container">
-    <div class="slide">
-      <a href="#modal1"><img src="assets/52695038765_8c273c4873_k.jpg" alt=""></a>
-    </div>
-    <div class="slide">
-      <a href="#modal2"><img src="assets/52694627106_01c9182619_k.jpg" alt=""></a>
-    </div>
-    <div class="slide">
-      <a href="#modal3"><img src="assets/52694891089_44aea53046_k.jpg" alt=""></a>
-    </div>
-  </div>
-  <div class="slide-nav">
-    <label for="slide1"></label>
-    <label for="slide2"></label>
-    <label for="slide3"></label>
-  </div>
-</div>
-      <div id="modal1" class="modal">
-          <div class="modal_window">
-              <a class="modal_close" href="#galeria">X</a>
-              <img src="assets/52695038765_8c273c4873_k.jpg">
-          </div>
-      </div>
+        <section id="campo">
+            <h1>Agrinho</h1>
+            <h2>A tecnologia tem sido uma aliada poderosa na transformação do campo e da cidade, promovendo avanços significativos na agricultura, na gestão de recursos e na qualidade de vida.</h2>
+            <div class="benefigrid">
+                <div class="benefit-card">
+                    <i class="fi-sr-chart-line-up icon-style"></i>
+                    <h3>Eficiência na Produção</h3>
+                    <p>Automação e agricultura de precisão permitem o uso racional de insumos, aumentando a produtividade e reduzindo desperdícios.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fi-sr-leaf icon-style"></i>
+                    <h3>Monitoramento Ambiental</h3>
+                    <p>Sensores e drones auxiliam na coleta de dados sobre o solo, a água e o clima, facilitando decisões sustentáveis.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fi fi-sr-bolt"></i>
+                    <h3>Energias Renováveis</h3>
+                    <p>Adoção de fontes de energia limpa, como solar e eólica, contribui para a redução da pegada de carbono.</p>
+                </div>
+            </div>
+    <div class="desafios">
+                <h1>Desafios que são enfrentados</h1>
+                <div class="lista-desafio">
+                    <div class="item-desafio">
+                        <i class="fi fi-sr-triangle-warning"></i>
+                        <p>Resíduos eletrônicos: O descarte inadequado pode causar poluição e danos à saúde.</p>
+                    </div>
+                    <div class="item-desafio">
+                        <i class="fi fi-sr-bolt"></i>
+                        <p>Consumo excessivo de energia: O aumento no uso de dispositivos pode sobrecarregar as fontes disponíveis.</p>
+                    </div>
+                    <div class="item-desafio">
+                        <i class="fi fi-sr-universal-access"></i>
+                        <p>Desigualdade de acesso: Nem todos têm acesso igual às tecnologias, ampliando disparidades sociais.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section id="tecnologia">
+            <div class="galeria">
+                <input type="radio" name="slide" id="slide1" class="slide-control" checked>
+                <input type="radio" name="slide" id="slide2" class="slide-control">
+                <input type="radio" name="slide" id="slide3" class="slide-control">
+                <div class="slides-container">
+                    <div class="slide">
+                        <a href="#modal1"><img src="assets/52695038765_8c273c4873_k.jpg" alt=""></a>
+                    </div>
+                    <div class="slide">
+                        <a href="#modal2"><img src="assets/52694627106_01c9182619_k.jpg" alt=""></a>
+                    </div>
+                    <div class="slide">
+                        <a href="#modal3"><img src="assets/52694891089_44aea53046_k.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="slide-nav">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                </div>
+            </div>
+            <div id="modal1" class="modal">
+                <div class="modal_window">
+                    <a class="modal_close" href="#galeria">X</a>
+                    <img src="assets/52695038765_8c273c4873_k.jpg">
+                </div>
+            </div>
             <div id="modal2" class="modal">
-          <div class="modal_window">
-              <a class="modal_close" href="#galeria">X</a>
-              <img src="assets/52694627106_01c9182619_k.jpg">
-          </div>
-      </div>
-      <div id="modal3" class="modal">
-          <div class="modal_window">
-              <a class="modal_close" href="#galeria">X</a>
-              <img src="assets/52694891089_44aea53046_k.jpg">
-          </div>
-      </div>
-</section>
-<br>
-<section id = historia>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam totam labore ullam culpa impedit deserunt, iusto nobis harum consequuntur. Odio tempora in suscipit consectetur impedit aliquam quibusdam fugiat maxime dolores.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil esse eligendi enim ad tempore quam tenetur nobis cupiditate quisquam! Laudantium omnis amet consectetur, officiis a molestias sunt magni perspiciatis quos?</p>
-</section>
-    <br>
-    <div class="footer"></div>
+                <div class="modal_window">
+                    <a class="modal_close" href="#galeria">X</a>
+                    <img src="assets/52694627106_01c9182619_k.jpg">
+                </div>
+            </div>
+            <div id="modal3" class="modal">
+                <div class="modal_window">
+                    <a class="modal_close" href="#galeria">X</a>
+                    <img src="assets/52694891089_44aea53046_k.jpg">
+                </div>
+            </div>
+        </section>
+        <br>
+        <section id="cidade">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam totam labore ullam culpa impedit deserunt, iusto nobis harum consequuntur. Odio tempora in suscipit consectetur impedit aliquam quibusdam fugiat maxime dolores.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil esse eligendi enim ad tempore quam tenetur nobis cupiditate quisquam! Laudantium omnis amet consectetur, officiis a molestias sunt magni perspiciatis quos?</p>
+        </section>
+        <br>
+    </div>
+        <div class="footer"></div>
+    </div>
 </div>
-
 </body>
 </html>
