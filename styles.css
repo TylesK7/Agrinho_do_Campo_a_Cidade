@@ -17,7 +17,37 @@
     --normal-size-big-text: 2.5rem;
     --normal-size-normal-text: 0.95rem;
 }
+.sabia-que {
+    background-color: var(--background-color3);
+    border-left: 5px solid;
+    padding: 1.2rem;
+    margin: 2.5rem 0;
+    border-radius: 0 8px 8px 0;
+    position: relative;
+    font-size: 1.1rem;
+    color: var(--color-text4)
+}
 
+.sabia-que::before {
+    content: "💡 Você sabia que...";
+    display: block;
+    font-weight: bold;
+    color: var(--color-text);
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+
+
+
+.fonte {
+    display: block;
+    font-size: 0.85rem;
+    font-style: italic;
+    text-align: right;
+    margin-top: 0.5rem;
+    color: #666;
+}
 body {
     scroll-behavior: smooth;
     background-color: var(--background-color);
@@ -301,6 +331,7 @@ section ul {
 }
 
 .desafios {
+
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     background: var(--background-color4);
@@ -349,11 +380,17 @@ details {
   cursor: pointer;
 }
 
-summary {
+summary { 
+  text-align: center;
+  margin: auto;
   font-size: 1.2rem;
   font-weight: bold;
   outline: none;
   list-style: none;
+  border: 2px solid var(--navs);
+  border-radius: 15px;
+  width: 25dvh;
+  padding: 1rem;
 }
 
 summary::marker {
@@ -400,6 +437,15 @@ details[open] {
 .alternativas input[type="radio"]:checked + label.errada{
     background-color: var(--wrong);
     border: 2px solid var(--wrong-bord);
+
+}
+.alternativas input:checked + label.correta:after{
+    margin-left: 1rem;
+    content: " ✓ Correto!";
+}
+.alternativas input:checked + label.errada:after {
+    content: '✖ Resposta incorreta';
+    margin-left: 1rem;
 }
 .congratulations {
     padding: 1rem;
@@ -420,7 +466,7 @@ form:has(#question-1-c:checked):has(#question-2-a:checked):has(#question-3-b:che
 }
 
 .benefit-card:hover {
-    box-shadow: 0.7rem 0.5rem var(--shadow);
+    box-shadow: 0 3px 6px var(--shadow);
 
     transform: translateY(-8px);
 }
@@ -460,6 +506,15 @@ form:has(#question-1-c:checked):has(#question-2-a:checked):has(#question-3-b:che
 }
 
 @media (max-width: 768px) {
+        .footer-col {
+        min-width: 100%; /* Em telas pequenas, cada coluna ocupa 100% da largura */
+        text-align: center; /* Centraliza o texto em mobile */
+    }
+    
+    .footer-nav {
+        align-items: center; /* Centraliza os itens do menu em mobile */
+        text-align: center;
+    }
     .menu-icon {
         display: block;
         text-align: center;
@@ -483,18 +538,38 @@ form:has(#question-1-c:checked):has(#question-2-a:checked):has(#question-3-b:che
     background-color: var(--background-color2);
     padding: 1rem;
 }
+.footer-container nav{
+    justify-content: center;
+}
+
 .footer-nav {
+    display: flex;
     flex-direction: column;
+    gap: 0.5rem;
+    padding: 0;
+    text-align: left; /* Alinha o texto à esquerda dentro de cada coluna */
 }
 .footer-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center; /* Centraliza as colunas horizontalmente */
     flex-wrap: wrap;
-    margin: auto;
-    max-width: 70%;
+    max-width: 1200px; /* Largura máxima do footer */
+    margin: 0 auto; /* Centraliza na página */
+    padding: 1rem;
+    gap: 2rem; /* Espaço entre as colunas */
 }
+.footer-col {
+    flex: 1; /* Faz as colunas crescerem igualmente */
+    min-width: 250px; /* Largura mínima para cada coluna */
+    max-width: 350px; /* Largura máxima para cada coluna */
+}
+
+
 .footer ul {
     text-align: center;
+}
+.footer-nav li {
+    list-style: none;
 }
 .footer li a{
     color: var(--color-text);
@@ -504,6 +579,14 @@ form:has(#question-1-c:checked):has(#question-2-a:checked):has(#question-3-b:che
     transition: 0.3s;
     color: var(--navs);
     text-decoration: none;
+}
+.footer h1{
+    margin: 0;
+    text-align: center;
+}
+.footer a {
+    text-decoration: none;
+    color: var(--color-text4);
 }
 .galeria {
     border-radius: 8px;
