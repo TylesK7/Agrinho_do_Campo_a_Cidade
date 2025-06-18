@@ -25,14 +25,14 @@
     border-radius: 0 8px 8px 0;
     position: relative;
     font-size: 1.1rem;
-    color: var(--color-text4)
+    color: var(--color-text1)
 }
 
 .sabia-que::before {
     content: "💡 Você sabia que...";
     display: block;
     font-weight: bold;
-    color: var(--color-text);
+    color: var(--color-text2);
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
 }
