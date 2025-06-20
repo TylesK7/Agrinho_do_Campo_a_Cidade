@@ -18,13 +18,13 @@
     --normal-size-normal-text: 0.95rem;
 }
 .sabia-que {
+    font-size: 1.2rem;
     background-color: var(--background-color3);
     border-left: 5px solid;
     padding: 1.2rem;
     margin: 2.5rem 0;
     border-radius: 0 8px 8px 0;
     position: relative;
-    font-size: 1.1rem;
     color: var(--color-text1)
 }
 
@@ -34,7 +34,7 @@
     font-weight: bold;
     color: var(--color-text2);
     margin-bottom: 0.5rem;
-    font-size: 1.2rem;
+
 }
 
 
@@ -148,6 +148,7 @@ body {
 }
 
 .page {
+    transition: 0.3s;
     background-color: var(--background-color);
     color: var(--color-text);
     font-family: 'Poppins', sans-serif;
@@ -287,6 +288,36 @@ section ul {
     padding-left: 25px;
 }
 
+.fontSizeLabel {
+    background-color: #1e1e1e;
+    border: 2px solid var(--background-color2);
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 4.5rem; 
+    top: 4rem;
+    transition: 0.3s;
+    width: 50px;
+}
+
+.fontSizeLabel::before {
+    content: "A+";
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    position: absolute;
+    left: 15px;
+    top: 0px;
+}
+#fontSizeToggle:checked + .fontSizeLabel {
+    background-color: #4caf50;
+}
+#fontSizeToggle:checked ~ .page {
+    font-size: 1.5em;
+}
+
 .slider {
     box-sizing: border-box;
     height: 100%;
@@ -303,6 +334,7 @@ section ul {
 }
 
 .slides img {
+    pointer-events: none;
     height: 600px;
     object-fit: cover;
     width: 100%;
@@ -331,7 +363,6 @@ section ul {
 }
 
 .desafios {
-
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     background: var(--background-color4);
@@ -357,7 +388,6 @@ section ul {
 
 .item-desafio {
     color: var(--color-text3);
-    font-size: 1.2rem;
     display: flex;
     align-items: flex-start;
     gap: 0.5rem;
@@ -479,13 +509,11 @@ form:has(#question-1-c:checked):has(#question-2-a:checked):has(#question-3-b:che
 
 .benefit-card h3 {
     color: var(--color-text2);
-    font-size: 1.25rem;
     margin: 0.5rem 0;
 }
 
 .benefit-card p {
     color: var(--color-text3);
-    font-size: 0.95rem;
 }
 
 .menu-icon {
@@ -507,12 +535,16 @@ form:has(#question-1-c:checked):has(#question-2-a:checked):has(#question-3-b:che
 
 @media (max-width: 768px) {
         .footer-col {
-        min-width: 100%; /* Em telas pequenas, cada coluna ocupa 100% da largura */
-        text-align: center; /* Centraliza o texto em mobile */
+        min-width: 100%; 
+        text-align: center; 
     }
     
+    .fontSizeLabel{
+        right: 1rem; 
+        top: 2rem;
+    }
     .footer-nav {
-        align-items: center; /* Centraliza os itens do menu em mobile */
+        align-items: center; 
         text-align: center;
     }
     .menu-icon {
@@ -547,24 +579,25 @@ form:has(#question-1-c:checked):has(#question-2-a:checked):has(#question-3-b:che
     flex-direction: column;
     gap: 0.5rem;
     padding: 0;
-    text-align: left; /* Alinha o texto à esquerda dentro de cada coluna */
+    text-align: left; 
 }
 .footer-container {
     display: flex;
-    justify-content: center; /* Centraliza as colunas horizontalmente */
+    justify-content: center;
     flex-wrap: wrap;
-    max-width: 1200px; /* Largura máxima do footer */
-    margin: 0 auto; /* Centraliza na página */
+    max-width: 1200px; 
+    margin: 0 auto; 
     padding: 1rem;
-    gap: 2rem; /* Espaço entre as colunas */
+    gap: 2rem; 
 }
 .footer-col {
-    flex: 1; /* Faz as colunas crescerem igualmente */
-    min-width: 250px; /* Largura mínima para cada coluna */
-    max-width: 350px; /* Largura máxima para cada coluna */
+    flex: 1; 
+    min-width: 250px;
+    max-width: 350px; 
 }
-
-
+.footer-col h2{
+    text-align: center;
+}
 .footer ul {
     text-align: center;
 }
@@ -630,18 +663,19 @@ form:has(#question-1-c:checked):has(#question-2-a:checked):has(#question-3-b:che
   background-color: var(--background-color2);
 }
 .credit {
+    
     text-align: center;
     margin: auto;
-    background-color: var(--color-tex2);
-    color: var(--color-text);
+    color: var(--color-text3);
     text-decoration: none;
 }
 .credit a {
-    color: var(--color-text);
+    transition: 0.5s;
+    color: var(--correct);
     text-decoration: none;
 }
 .credit a:hover {
-    transition: 0.5s;
+    
     color: var(--color-text4);
 }
 .slide-nav {
