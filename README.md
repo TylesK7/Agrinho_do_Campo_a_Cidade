@@ -18,7 +18,11 @@ O site mostra como as inovações nos meios rural e urbano podem caminhar juntas
 
 ## 🎨 Arte Digital
 
-Todas as artes, incluindo ícones e ilustrações usadas no site, foram criadas por Victor Daniel utilizando o software livre de pintura digital **Krita** (https://krita.org).  
+O ícone principal do site foi criado por Victor Daniel utilizando o software livre de pintura digital **Krita** (https://krita.org).  
+
+O estilo de fonte utilizada no site é **Poppins**, disponível gratuitamente pelo Google Fonts (https://fonts.google.com/specimen/Poppins).  
+
+Outros ícones usados no site são da coleção **UIcons Solid Rounded**, fornecidos pela Flaticon (https://flaticon.com).  
 
 ---
 
