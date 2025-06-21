@@ -15,6 +15,12 @@ O site mostra como as inovações nos meios rural e urbano podem caminhar juntas
 
 ---
 
+## 🎨 Arte Digital
+
+Todas as artes, incluindo ícones e ilustrações usadas no site, foram criadas por Victor Daniel utilizando o software livre de pintura digital **Krita** (https://krita.org).  
+
+---
+
 ## 🚀 Funcionalidades Principais
 
 ### 💡 Modo Escuro / Claro
@@ -43,8 +49,8 @@ O site mostra como as inovações nos meios rural e urbano podem caminhar juntas
 
 No site, há cartões interativos (CTAs) que incentivam ações sustentáveis no dia a dia, mesmo em espaços urbanos reduzidos. Cada card oferece uma ideia simples e acessível:
 
-- 🌱 Hortas Urbanas: Use vasos, garrafas ou caixinhas para cultivar temperos e hortaliças em casa.
-- 🌊 Reaproveitamento da Água: Dicas para reutilizar a água da chuva e da máquina de lavar, promovendo economia e consciência ambiental.
+- 🌱 Hortas Urbanas: Use vasos, garrafas ou caixinhas para cultivar temperos e hortaliças em casa.  
+- 🌊 Reaproveitamento da Água: Dicas para reutilizar a água da chuva e da máquina de lavar, promovendo economia e consciência ambiental.  
 - 🍂 Composteiras Domésticas: Transforme resíduos orgânicos em adubo natural, reduzindo o lixo e enriquecendo o solo.
 
 ---
@@ -52,19 +58,19 @@ No site, há cartões interativos (CTAs) que incentivam ações sustentáveis no
 ## 🌐 Páginas e Conteúdo
 
 ### 📌 Estrutura do Site:
-- **Campo:** aborda agricultura moderna, energias limpas, e desafios do agro no Brasil.
-- **Cidade:** discute práticas sustentáveis, hortas, reciclagem e desafios urbanos.
-- **Galeria:** imagens com modais interativos e créditos autorais.
-- **Integração:** como campo e cidade se complementam com tecnologia e boas práticas.
+- **Campo:** aborda agricultura moderna, energias limpas, e desafios do agro no Brasil.  
+- **Cidade:** discute práticas sustentáveis, hortas, reciclagem e desafios urbanos.  
+- **Galeria:** imagens com modais interativos e créditos autorais.  
+- **Integração:** como campo e cidade se complementam com tecnologia e boas práticas.  
 - **Quiz:** perguntas educativas com correção visual direta para reforçar o conteúdo.
 
 ---
 
 ## 🖼️ Créditos de Imagens
 
-- Fotografias autorais por Victor: https://www.instagram.com/tylesk.508/
-- Colaboração de Gustavo Kiwi: https://www.instagram.com/gustavokiwi/
-- Imagens via Wikimedia Commons sob licença CC BY-SA 4.0:
+- Fotografias autorais por Victor: https://www.instagram.com/tylesk.508/  
+- Colaboração de Gustavo Kiwi: https://www.instagram.com/gustavokiwi/  
+- Imagens via Wikimedia Commons sob licença CC BY‑SA 4.0:
   - [Ricardo Marconato – Estufa do Jardim Botânico de Curitiba](https://commons.wikimedia.org/wiki/File:Estufa-Jardim-Botanico-Curitiba-out.JPG)
   - [Suely Sanches – Parque do Ingá, Maringá](https://commons.wikimedia.org/wiki/File:Parque_do_Ing%C3%A1_IMG_1580.jpg)
 
@@ -72,9 +78,9 @@ No site, há cartões interativos (CTAs) que incentivam ações sustentáveis no
 
 ## 📚 Fontes Utilizadas no Conteúdo
 
-- [Esfera Energia – Compostagem Doméstica](https://blog.esferaenergia.com.br/sustentabilidade/compostagem-domestica-2)
-- [eCycle – Como Fazer uma Horta](https://www.ecycle.com.br/como-fazer-uma-horta/)
-- [Montante – 10 Maneiras de Reutilizar Água no Dia a Dia](https://montante.com.br/10-maneiras-de-reutilizar-a-agua-em-nosso-dia-a-dia/)
+- [Esfera Energia – Compostagem Doméstica](https://blog.esferaenergia.com.br/sustentabilidade/compostagem-domestica-2)  
+- [eCycle – Como Fazer uma Horta](https://www.ecycle.com.br/como-fazer-uma-horta/)  
+- [Montante – 10 Maneiras de Reutilizar Água no Dia a Dia](https://montante.com.br/10-maneiras-de-reutilizar-a-agua-em-nosso-dia-a-dia/)  
 
 ---
 
@@ -85,7 +91,7 @@ No site, há cartões interativos (CTAs) que incentivam ações sustentáveis no
 | HTML5 | Estrutura semântica das páginas |
 | CSS3 | Estilização, responsividade, animações e interações |
 | Flexbox / Grid | Layouts adaptáveis e modernos |
-| Pseudo-seletores | Lógica de interatividade (modo escuro, quiz, etc) |
+| Pseudo‑seletores | Lógica de interatividade (modo escuro, quiz, etc) |
 
 ---
 
@@ -94,19 +100,29 @@ No site, há cartões interativos (CTAs) que incentivam ações sustentáveis no
 ├── index.html  
 ├── styles.css  
 └── assets/  
-  ├── imagens (.jpg, .png)  
-  └── ícones e logos
+     ├── imagens (.jpg, .png)  
+     └── ícones e logos
 
 ---
 
 ## 🧪 Como Visualizar
 
 1. Clone o repositório no GitHub:  
-   git clone https://github.com/TylesK7/Projeto-Agrinho-CultivaTech.git 
-2. Abra o arquivo index.html diretamente em qualquer navegador moderno.
+   `git clone https://github.com/TylesK7/Projeto-Agrinho-CultivaTech.git`  
+2. Abra o arquivo `index.html` diretamente em qualquer navegador moderno.
 
 ---
 
-## 🙌 Agradecimentos
+## 🙌 Agradecimentos  
 
-Agradeço ao Projeto Agrinho por fomentar iniciativas educativas como esta, aos colaboradores que contribuíram com imagens e ideias, e às fontes abertas que inspiraram este trabalho.
+---
+
+Agradeço ao Projeto Agrinho por fomentar iniciativas educativas como esta, aos colaboradores que contribuíram com imagens e ideias, e às fontes abertas que inspiraram este trabalho.  
+
+---
+## 📜 Licença  
+
+Este projeto está licenciado sob a licença **MIT**.  
+Para mais detalhes, veja o arquivo [LICENSE](LICENSE) na raiz do repositório.  
+
+---
