@@ -63,9 +63,17 @@ No site, há cartões interativos (CTAs) que incentivam ações sustentáveis no
 
 - Fotografias autorais por Victor: https://www.instagram.com/tylesk.508/
 - Colaboração de Gustavo Kiwi: https://www.instagram.com/gustavokiwi/
-- Imagens de domínio livre via Wikimedia Commons sob licença CC BY-SA 4.0:
-  - Ricardo Marconato – Estufa do Jardim Botânico de Curitiba  
-  - Suely Sanches – Parque do Ingá, Maringá
+- Imagens via Wikimedia Commons sob licença CC BY-SA 4.0:
+  - [Ricardo Marconato – Estufa do Jardim Botânico de Curitiba](https://commons.wikimedia.org/wiki/File:Estufa_Jardim_Bot%C3%A2nico_Curitiba.jpg)
+  - [Suely Sanches – Parque do Ingá, Maringá](https://commons.wikimedia.org/wiki/File:Parque_do_Ing%C3%A1_03.jpg)
+
+---
+
+## 📚 Fontes Utilizadas no Conteúdo
+
+- [Esfera Energia – Compostagem Doméstica](https://blog.esferaenergia.com.br/sustentabilidade/compostagem-domestica-2)
+- [eCycle – Como Fazer uma Horta](https://www.ecycle.com.br/como-fazer-uma-horta/)
+- [Montante – 10 Maneiras de Reutilizar Água no Dia a Dia](https://montante.com.br/10-maneiras-de-reutilizar-a-agua-em-nosso-dia-a-dia/)
 
 ---
 
@@ -100,8 +108,4 @@ No site, há cartões interativos (CTAs) que incentivam ações sustentáveis no
 
 ## 🙌 Agradecimentos
 
-Gratidão ao Agrinho por fomentar iniciativas educativas como esta, aos colaboradores que contribuíram com imagens e ideias, e às fontes abertas que inspiraram este trabalho.
-
-
-
-
+Gratidão ao Projeto Agrinho por fomentar iniciativas educativas como esta, aos colaboradores que contribuíram com imagens e ideias, e às fontes abertas que inspiraram este trabalho.
