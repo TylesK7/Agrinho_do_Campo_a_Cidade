@@ -15,7 +15,7 @@
         <h1>Bem-vindo(a)!</h1>
     </div>
     <input type="checkbox" id="darkmodeToggle" hidden>
-    <label class="darkmodeLabel" for="darkmodeToggle"></label>
+    <label class="darkmodeLabel" for="darkmodeToggle" ></label>
     <input type="checkbox" id="fontSizeToggle" hidden>
     <label class="fontSizeLabel" for="fontSizeToggle" title="Aumentar fonte"></label>
     <div class="page">
@@ -25,10 +25,10 @@
                 <input type="checkbox" id="menu-toggle" hidden>
                 <label for="menu-toggle" class="menu-icon">☰</label>
                 <ul class="menu-list">
-                    <li><a href="#campo">Campo</a></li>
-                    <li><a href="#cidade">Cidade</a></li>
-                    <li><a href="#galeria">Galeria</a></li>
-                    <li><a href="#integracao">Integração</a></li>
+                    <li><a href="#campo" tabindex="0">Campo</a></li>
+                    <li><a href="#cidade" tabindex="0">Cidade</a></li>
+                    <li><a href="#galeria" tabindex="0">Galeria</a></li>
+                    <li><a href="#integracao" tabindex="0">Integração</a></li>
                 </ul>
             </nav>
         </header>
@@ -51,7 +51,7 @@
                 Técnicas como a rotação de culturas, o plantio direto e o uso de energias renováveis, como a solar e a eólica, mostram que é possível produzir com responsabilidade.
                 No campo atual, tradição e tecnologia caminham juntas, moldando um futuro mais sustentável.
             </p>
-            <div class="benefigrid">
+            <div tabindex="0" class="benefigrid">
                 <div class="benefit-card">
                     <i class="fi-sr-chart-line-up icon-style"></i>
                     <h3>Eficiência na Produção</h3>
@@ -71,7 +71,7 @@
                 </div>
             </div>
             
-            <div class="desafios">
+            <div class="desafios" tabindex="0">
                 <h1>Desafios que são enfrentados</h1>
                 <div class="lista-desafio">
                     <div class="item-desafio">
@@ -99,7 +99,7 @@
             </div>
         </section>
         
-        <section id="cidade">
+        <section id="cidade" tabindex="0">
             <h1>A Cidade</h1>
             <h2>Desafios e oportunidades urbanas</h2>
             <p>
@@ -110,7 +110,7 @@
                 diretas e educação ambiental, fortalece a conexão entre quem produz e quem consome, promovendo uma sociedade mais justa e consciente.
             </p>
             
-            <div class="benefigrid">
+            <div class="benefigrid" tabindex="0">
                 <div class="benefit-card">
                     <i class="fi fi-sr-tree"></i>
                     <h3>Hortas Urbanas</h3>
@@ -223,7 +223,7 @@ Esta galeria mostra um pouco da vivência no campo e como ela se conecta com a c
                     <img src="assets/Parque_do_Ingá_IMG_1580.jpg">
                 </div>
             </div>
-            
+
             <div class="sabia-que integracao">
                 <strong>Áreas verdes podem reduzir em até 5 °C a temperatura nas cidades,</strong> ajudando a combater ilhas de calor nas cidades e melhorar a qualidade de vida.
                 <span class="fonte">
@@ -232,7 +232,7 @@ Esta galeria mostra um pouco da vivência no campo e como ela se conecta com a c
             </div>
         </section>
         
-        <section id="integracao">
+        <section id="integracao" tabindex="0">
             <h1>Integração Campo-Cidade</h1>
             <h2>Conexão para um futuro sustentável</h2>
             <p>
@@ -241,7 +241,7 @@ Esta galeria mostra um pouco da vivência no campo e como ela se conecta com a c
                 aproximando produtores e consumidores. Feiras locais, hortas urbanas, transporte eficiente e comércio justo 
                 são pontes que geram desenvolvimento econômico, social e ambiental para todos.
             </p>
-    <div class="cta-grid">
+    <div class="cta-grid" tabindex="0">
 
     <div class="cta-card sustainable">
         <h3>Composteiras</h3>
@@ -261,7 +261,6 @@ Esta galeria mostra um pouco da vivência no campo e como ela se conecta com a c
             <a href="https://www.ecycle.com.br/como-fazer-uma-horta/" target="_blank" class="cta-button">Veja como começar</a>
         </div>
     </div>
-
 
   <div class="cta-card local">
         <h3>Reaproveite água</h3>
@@ -289,7 +288,7 @@ Esta galeria mostra um pouco da vivência no campo e como ela se conecta com a c
                             </div>
                             
                             <div class="alternativas">
-                                <input type="radio" id="question-1-a" name="question-1">
+                                <input type="radio"  id="question-1-a" name="question-1">
                                 <label for="question-1-a" class="errada">Gasta mais energia</label>
                                 
                                 <input type="radio" id="question-1-b" name="question-1">
