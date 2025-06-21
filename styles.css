@@ -85,7 +85,10 @@ body {
     color: var(--color-text);
     font-family: 'Poppins', sans-serif;
 }
-
+.darkmodebutton {
+    opacity: 0;
+    margin: 0;
+}
 .darkmodeLabel {
     background-color: #1e1e1e;
     border: 2px solid var(--background-color2);
@@ -95,7 +98,7 @@ body {
     height: 25px;
     position: absolute;
     right: 1rem;
-    top: 4rem;
+    top: 6rem;
     transition: 0.3s;
     width: 50px;
 }
@@ -119,7 +122,16 @@ body {
     transition: 0.3s;
     width: 19px;
 }
-
+.darkmodebutton:checked ~ .page {
+        --color-text: #ffffff;
+    --color-text2: #73ff7a;
+    --color-text3: #cde0ff;
+    --background-color: #0b0b0b;
+    --background-color2: #081416;
+    --background-color3: #1a1a1a;
+    --background-color4: #262727;
+    --shadow: rgb(16, 16, 16);
+}
 #darkmodeToggle:checked ~ .page {
     --color-text: #ffffff;
     --color-text2: #73ff7a;
@@ -228,7 +240,7 @@ section ul {
     height: 25px;
     position: absolute;
     right: 4.5rem; 
-    top: 4rem;
+    top: 6rem;
     transition: 0.3s;
     width: 50px;
 }
@@ -237,11 +249,12 @@ section ul {
     content: "A+";
     color: white;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 18px;
     position: absolute;
-    left: 15px;
-    top: 0px;
+    left: 25%;
+    top: 0%;
 }
+
 #fontSizeToggle:checked + .fontSizeLabel {
     background-color: #4caf50;
 }
@@ -275,24 +288,60 @@ section ul {
     0% {
         margin-left: 0%;
     }
-
-    20% {
+    25% {
         margin-left: -100%;
     }
-
-    40% {
+    50% {
         margin-left: -200%;
     }
-
-    60% {
+    75% {
         margin-left: -300%;
     }
-
-    80% {
+    100% {
         margin-left: 0%;
     }
 }
 
+
+@media (max-width: 768px) {
+    .fontSizeLabel::before {
+        content: "A+";
+        color: white;
+        font-weight: bold;
+        font-size: 100%;
+        position: absolute;
+        left: 25%;
+        top: 0%;
+        padding: 1px;
+        
+    }
+    .slides img {
+        height: 300px;
+    }
+    
+    .slider {
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    @keyframes slide {
+        0% {
+            margin-left: 0%;
+        }
+        25% {
+            margin-left: -100%;
+        }
+        50% {
+            margin-left: -200%;
+        }
+        75% {
+            margin-left: -300%;
+        }
+        100% {
+            margin-left: 0%;
+        }
+    }
+}
 .desafios {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
