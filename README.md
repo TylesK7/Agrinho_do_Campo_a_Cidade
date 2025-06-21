@@ -1,107 +1,107 @@
 # 🌾 CultivaTech – Do Campo à Cidade
 
 **Autor:** Victor Daniel dos Santos Lima  
-🔗 [Acesse o site](https://tylesk7.github.io/Agrinho_do_Campo_a_Cidade/)  
+🔗 Acesse o site: https://tylesk7.github.io/Agrinho_do_Campo_a_Cidade/  
 📅 Projeto Agrinho 2025
 
 ---
 
 ## 🧭 Sobre o Projeto
 
-**CultivaTech** é um site desenvolvido para o **Projeto Agrinho**, com o objetivo de promover a reflexão sobre a **integração entre o campo e a cidade**, aliando tecnologia, sustentabilidade e acessibilidade.
+**CultivaTech** é um site desenvolvido para o **Projeto Agrinho**, com o propósito de promover a reflexão sobre a **integração entre o campo e a cidade**, aliando **tecnologia, sustentabilidade e acessibilidade** de maneira prática e educativa.
 
-O site mostra como a inovação no meio rural e urbano pode caminhar junta rumo a um futuro mais equilibrado. O conteúdo foi desenvolvido com foco em educação, sustentabilidade e acessibilidade, usando **apenas HTML5 e CSS3**, sem qualquer linha de JavaScript.
+O site mostra como as inovações nos meios rural e urbano podem caminhar juntas rumo a um futuro mais equilibrado e consciente. Criado **apenas com HTML5 e CSS3**, o projeto valoriza o uso eficiente de recursos, sem depender de JavaScript.
 
 ---
 
 ## 🚀 Funcionalidades Principais
 
 ### 💡 Modo Escuro / Claro
-- Alternância entre temas visualmente agradáveis e adaptáveis ao ambiente de visualização.
-- Implementado 100% com CSS utilizando `:checked` e variáveis.
+- Alternância entre temas claros e escuros de forma intuitiva.
+- Feito inteiramente com CSS usando `:checked` e variáveis customizadas.
 
 ### 🔍 Aumentar Fonte
-- Botão que ajusta dinamicamente o tamanho do texto para melhorar a leitura.
-- Ideal para acessibilidade, especialmente para usuários com deficiência visual.
+- Botão que permite ajustar o tamanho dos textos.
+- Recurso acessível voltado para usuários com baixa visão ou preferências visuais.
 
 ### 🖼️ Galeria de Imagens
-- Apresenta fotos do campo, cidade e integração entre eles.
-- Inclui modais de visualização com créditos atribuídos corretamente (autorais e Wikimedia Commons).
+- Apresenta fotos autorais e de domínio público que retratam o campo, a cidade e sua integração.
+- Inclui modais interativos com créditos visíveis.
 
 ### 🎞️ Slider Automático
-- Um carrossel com transições suaves de imagens, simulando movimento contínuo.
-- Feito apenas com animações CSS.
+- Um carrossel que exibe imagens com transições suaves.
+- Implementado somente com animações CSS, simulando movimento contínuo.
 
 ### ✅ Quiz Educativo
-- Três perguntas interativas sobre os temas abordados no site.
-- Feedback visual instantâneo sobre acertos e erros, totalmente sem JavaScript.
+- Três perguntas interativas relacionadas ao conteúdo do site.
+- Feedback visual instantâneo sobre respostas corretas ou incorretas — sem usar JavaScript.
+
+---
+
+## 📣 Destaques: CTAs de Sustentabilidade
+
+No site, há cartões interativos (CTAs) que incentivam ações sustentáveis no dia a dia, mesmo em espaços urbanos reduzidos. Cada card oferece uma ideia simples e acessível:
+
+- 🌱 Hortas Urbanas: Use vasos, garrafas ou caixinhas para cultivar temperos e hortaliças em casa.
+- 🌊 Reaproveitamento da Água: Dicas para reutilizar a água da chuva e da máquina de lavar, promovendo economia e consciência ambiental.
+- 🍂 Composteiras Domésticas: Transforme resíduos orgânicos em adubo natural, reduzindo o lixo e enriquecendo o solo.
 
 ---
 
 ## 🌐 Páginas e Conteúdo
 
-### 📌 Seções:
-- **Campo:** agricultura moderna, energias renováveis, desafios e dados do agronegócio.
-- **Cidade:** práticas sustentáveis, hortas urbanas, coleta seletiva, desafios urbanos.
-- **Galeria:** imagens com modais e créditos (Victor, Gustavo, Wikimedia Commons).
-- **Integração:** como campo e cidade se conectam via tecnologia e práticas sustentáveis.
-- **Quiz:** perguntas interativas sobre o conteúdo com destaque para aprendizagem.
+### 📌 Estrutura do Site:
+- **Campo:** aborda agricultura moderna, energias limpas, e desafios do agro no Brasil.
+- **Cidade:** discute práticas sustentáveis, hortas, reciclagem e desafios urbanos.
+- **Galeria:** imagens com modais interativos e créditos autorais.
+- **Integração:** como campo e cidade se complementam com tecnologia e boas práticas.
+- **Quiz:** perguntas educativas com correção visual direta para reforçar o conteúdo.
 
 ---
 
 ## 🖼️ Créditos de Imagens
 
-- 📷 Imagens tiradas por [Victor](https://www.instagram.com/tylesk.508/)
-- 📷 Colaborações de [Gustavo Kiwi](https://www.instagram.com/gustavokiwi/)
-- 🌍 Imagens da cidade via Wikimedia Commons com licença **CC BY-SA 4.0**:
-  - Ricardo Marconato – Estufa de Curitiba
-  - Suely Sanches – Parque do Ingá
+- Fotografias autorais por Victor: https://www.instagram.com/tylesk.508/
+- Colaboração de Gustavo Kiwi: https://www.instagram.com/gustavokiwi/
+- Imagens de domínio livre via Wikimedia Commons sob licença CC BY-SA 4.0:
+  - Ricardo Marconato – Estufa do Jardim Botânico de Curitiba  
+  - Suely Sanches – Parque do Ingá, Maringá
 
 ---
 
 ## 💻 Tecnologias Utilizadas
 
-| Tecnologia | Uso |
-|------------|-----|
-| HTML5 | Estrutura e marcação semântica |
-| CSS3 | Estilo, responsividade, animações e interações |
-| Flexbox/Grid | Layouts modernos e adaptáveis |
-| Pseudo-seletores | Modo escuro e quiz sem JavaScript |
+| Tecnologia | Finalidade |
+|------------|------------|
+| HTML5 | Estrutura semântica das páginas |
+| CSS3 | Estilização, responsividade, animações e interações |
+| Flexbox / Grid | Layouts adaptáveis e modernos |
+| Pseudo-seletores | Lógica de interatividade (modo escuro, quiz, etc) |
 
 ---
 
 ## 📂 Estrutura de Arquivos
 
-    ├── index.html
-    ├── styles.css
-    └── assets/
-        ├── imagens (.jpg, .png)
-        └── ícones e logos
+├── index.html  
+├── styles.css  
+└── assets/  
+  ├── imagens (.jpg, .png)  
+  └── ícones e logos
 
 ---
 
 ## 🧪 Como Visualizar
 
-1. Clone o repositório:
-   git clone https://github.com/TylesK7/Agrinho_do_Campo_a_Cidade.git
-2. Abra o arquivo `index.html` em um navegador moderno.
-
----
-
-## 🧠 Aprendizados
-
-- Como construir funcionalidades complexas apenas com HTML e CSS
-- A importância do design acessível e responsivo
-- Integração prática entre tecnologia, educação e sustentabilidade
+1. Clone o repositório no GitHub:  
+   git clone https://github.com/TylesK7/Agrinho_do_Campo_a_Cidade.git  
+2. Abra o arquivo index.html diretamente em qualquer navegador moderno.
 
 ---
 
 ## 🙌 Agradecimentos
 
-Agradeço ao **Projeto Agrinho** por permitir essa criação educativa, e a todos os colaboradores e referências técnicas que me ajudaram a desenvolver este trabalho.
+Gratidão ao Agrinho por fomentar iniciativas educativas como esta, aos colaboradores que contribuíram com imagens e ideias, e às fontes abertas que inspiraram este trabalho.
 
----
 
-## 📜 Licença
 
-Distribuído sob a licença MIT. Você pode usar, modificar e compartilhar este projeto com os devidos créditos.
+
