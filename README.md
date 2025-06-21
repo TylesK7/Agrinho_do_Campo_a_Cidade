@@ -64,8 +64,8 @@ No site, há cartões interativos (CTAs) que incentivam ações sustentáveis no
 - Fotografias autorais por Victor: https://www.instagram.com/tylesk.508/
 - Colaboração de Gustavo Kiwi: https://www.instagram.com/gustavokiwi/
 - Imagens via Wikimedia Commons sob licença CC BY-SA 4.0:
-  - [Ricardo Marconato – Estufa do Jardim Botânico de Curitiba](https://commons.wikimedia.org/wiki/File:Estufa_Jardim_Bot%C3%A2nico_Curitiba.jpg)
-  - [Suely Sanches – Parque do Ingá, Maringá](https://commons.wikimedia.org/wiki/File:Parque_do_Ing%C3%A1_03.jpg)
+  - [Ricardo Marconato – Estufa do Jardim Botânico de Curitiba](https://commons.wikimedia.org/wiki/File:Estufa-Jardim-Botanico-Curitiba-out.JPG)
+  - [Suely Sanches – Parque do Ingá, Maringá](https://commons.wikimedia.org/wiki/File:Parque_do_Ing%C3%A1_IMG_1580.jpg)
 
 ---
 
