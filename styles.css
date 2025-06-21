@@ -701,7 +701,6 @@ form:has(#question-1-c:checked):has(#question-2-a:checked):has(#question-3-b:che
   gap: 10px;
 }
 .benefit {
-  font-size: 0.85rem;
   color: var(--color-text3)5;
   background: var(--background-color4);
   padding: 4px 8px;
@@ -716,7 +715,6 @@ form:has(#question-1-c:checked):has(#question-2-a:checked):has(#question-3-b:che
   border: 1px solid currentColor;
   border-radius: 4px;
   text-decoration: none;
-  font-size: 0.9rem;
   transition: all 0.3s;
 }
 .cta-button:hover {
