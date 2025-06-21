@@ -3,6 +3,7 @@
 **Autor:** Victor Daniel dos Santos Lima  
 🔗 Acesse o site: https://tylesk7.github.io/Projeto-Agrinho-CultivaTech/  
 📦 Repositório no GitHub: https://github.com/TylesK7/Projeto-Agrinho-CultivaTech  
+💼 Meu portfólio: https://tylesks.github.io/Portfolio/  
 📅 Projeto Agrinho 2025
 
 ---
@@ -105,6 +106,12 @@ No site, há cartões interativos (CTAs) que incentivam ações sustentáveis no
 
 ---
 
+## 🌟 Compatibilidade
+
+Funciona em todos os navegadores modernos e dispositivos móveis.
+
+---
+
 ## 🧪 Como Visualizar
 
 1. Clone o repositório no GitHub:  
@@ -120,9 +127,10 @@ No site, há cartões interativos (CTAs) que incentivam ações sustentáveis no
 Agradeço ao Projeto Agrinho por fomentar iniciativas educativas como esta, aos colaboradores que contribuíram com imagens e ideias, e às fontes abertas que inspiraram este trabalho.  
 
 ---
+
 ## 📜 Licença  
 
 Este projeto está licenciado sob a licença **MIT**.  
-Para mais detalhes, veja o arquivo [LICENSE](LICENSE) na raiz do repositório.  
+Para mais detalhes, veja o arquivo [LICENSE](LICENSE) no repositório.  
 
 ---
