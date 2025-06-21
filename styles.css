@@ -264,7 +264,6 @@ section {
     color: var(--color-text3);
     margin: auto;
     max-width: 70%;
-    /*overflow: auto; */
 }
 
 section h1 {
@@ -648,13 +647,17 @@ form:has(#question-1-c:checked):has(#question-2-a:checked):has(#question-3-b:che
 
 #slide1:checked ~ .slides-container .slide:nth-child(1),
 #slide2:checked ~ .slides-container .slide:nth-child(2),
-#slide3:checked ~ .slides-container .slide:nth-child(3) {
+#slide3:checked ~ .slides-container .slide:nth-child(3),
+#slide4:checked ~ .slides-container .slide:nth-child(4),
+#slide5:checked ~ .slides-container .slide:nth-child(5) {
     display: block;
 }
 
 #slide1:checked ~ .slide-nav label[for="slide1"],
 #slide2:checked ~ .slide-nav label[for="slide2"],
-#slide3:checked ~ .slide-nav label[for="slide3"] {
+#slide3:checked ~ .slide-nav label[for="slide3"],
+#slide4:checked ~ .slide-nav label[for="slide4"],
+#slide5:checked ~ .slide-nav label[for="slide5"] {
     background: var(--color-text4)
 }
 
