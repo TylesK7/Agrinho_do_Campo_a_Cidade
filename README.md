@@ -1,8 +1,8 @@
 # 🌾 CultivaTech – Do Campo à Cidade
 
 **Autor:** Victor Daniel dos Santos Lima  
-🔗 Acesse o site: https://tylesk7.github.io/Projeto-Agrinho-CultivaTech/
-📦 Repositório no GitHub: https://github.com/TylesK7/Projeto-Agrinho-CultivaTech
+🔗 Acesse o site: https://tylesk7.github.io/Projeto-Agrinho-CultivaTech/  
+📦 Repositório no GitHub: https://github.com/TylesK7/Projeto-Agrinho-CultivaTech  
 📅 Projeto Agrinho 2025
 
 ---
